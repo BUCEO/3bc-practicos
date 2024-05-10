@@ -5,6 +5,11 @@
 
    b) Configurar accesos con clave pública/clave privada (`ssh-keygen`).
 
+   c) copiar la clave en el servidor
+     ssh-copy-id usuario@ip 
+     o
+     scp ruta-origen ruta-destino
+
    c) Instalar el paquete `net-tools`.
 
 2. Acceder desde cliente Linux o Windows
