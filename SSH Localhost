@@ -1,0 +1,4 @@
+En la máquina virtual con iso Ubuntu server 20.04 hemos ingresado los siguientes comandos:
+
+ssh-keygen
+ssh localhost
