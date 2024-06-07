@@ -1,0 +1,208 @@
+ 1805  chmod 660 hello.sh 
+ 1806  ls -l hello.sh 
+ 1807  chown usuario3bj hello.sh 
+ 1808  sudo chown usuario3bj hello.sh 
+ 1809  ls -l hello.sh 
+ 1810  chgrp usuario3bj hello.sh 
+ 1811  sudo chgrp usuario3bj hello.sh 
+ 1812  ls -l hello.sh 
+ 1813  vim /etc/group
+ 1814  sudo vim /etc/group
+ 1815  clear
+ 1816  sudo chown juan.juan hello.sh 
+ 1817  ls -l hello.sh 
+ 1818  mkdir hola
+ 1819  rm hola/
+ 1820  rm -d hola/
+ 1821  mkdir hola
+ 1822  rmdir hola
+ 1823  useradd ppe
+ 1824  sudo useradd ppe
+ 1825  userdel ppe
+ 1826  sudo userdel ppe
+ 1827  clear
+ 1828  chmod 775 hello.sh 
+ 1829  ./hello.sh 
+ 1830  vim hello.sh 
+ 1831  pwd
+ 1832  git status
+ 1833  clear
+ 1834  git add hello.sh 
+ 1835  git status 
+ 1836  rm p
+ 1837  git status 
+ 1838  clear
+ 1839  git commit -m "hola modificado"
+ 1840  git pull 
+ 1841  git pull
+ 1842  git status 
+ 1843  clear
+ 1844  git push
+ 1845  systemctl start apache2
+ 1846  pwd
+ 1847  chmod +x hello.sh 
+ 1848  ./hello.sh 
+ 1849  clear
+ 1850  history > historialcomandos.txt
+ 1851  git add historialcomandos.txt 
+ 1852  git commit "Practico Linux"
+ 1853  git commit -m "Practico Linux"
+ 1854  git push 
+ 1855  exit
+ 1856  ssh localhost
+ 1857  exit
+ 1858  netstat -nap |grep  22
+ 1859  netstat -nap |grep  80
+ 1860  systemctl stop nginx
+ 1861  netstat -nap |grep  80
+ 1862  systemctl disable nginx
+ 1863  sudo systemctl disable nginx
+ 1864  netstat -nap |grep  80
+ 1865  netstat -nap |grep  3306
+ 1866  docker --help
+ 1867  docker compose --help
+ 1868  docker compose logs
+ 1869  cd ITI
+ 1870  ls
+ 1871  cd Laravel-Docker/
+ 1872  ls
+ 1873  docker images ls
+ 1874  docker images
+ 1875  docker rmi 
+ 1876  docker rmi 16ada4592c32
+ 1877  docker rmi 16ada4592c32 -f
+ 1878  docker rmi 
+ 1879  docker rmi 3139656d1877
+ 1880  docker rmi 3139656d1877 -f
+ 1881  docker rmi c93dd051c753 -f
+ 1882  docker rmi 1b96232d9c7b
+ 1883  docker rmi 00afb3652ed0 -f
+ 1884  docker images
+ 1885  docker rmi f12abc9a8f89 -f
+ 1886  docker rmi 18539c836864 -f
+ 1887  docker rmi 65d4dcb075d4 -f
+ 1888  docker images
+ 1889  docker rmi  7ada379274c2 -f
+ 1890  docker rmi  6992b40a910d -f
+ 1891  docker images
+ 1892  docker rmi  e6a85eeba3e1 -f
+ 1893  docker images
+ 1894  vim docker-compose.yml 
+ 1895  clear
+ 1896  cd .docker/
+ 1897  vim php
+ 1898  docker compose up
+ 1899  ls
+ 1900  cd php
+ 1901  ls
+ 1902  vim docker.conf 
+ 1903  docker compose up
+ 1904  cd ..
+ 1905  ls
+ 1906  cd ..
+ 1907  ls
+ 1908  cd public/
+ 1909  ls
+ 1910  cd build/
+ 1911  ls
+ 1912  cd ..
+ 1913  cd .docker/
+ 1914  ls
+ 1915  cd php
+ 1916  ls
+ 1917  vim Dockerfile 
+ 1918  cd ..
+ 1919  ls
+ 1920  docker compose up
+ 1921  ls
+ 1922  cd .public
+ 1923  ls
+ 1924  vim Dockerfile 
+ 1925  clear
+ 1926  vim .docker/php
+ 1927  docker compose up
+ 1928  vim .docker/php
+ 1929  docker compose up
+ 1930  vim .docker/php
+ 1931  docker compose up
+ 1932  vim .docker/php
+ 1933  docker compose up build
+ 1934  docker compose up --build
+ 1935  vim .docker/php
+ 1936  docker compose up --build
+ 1937  exit
+ 1938  ls
+ 1939  git clone git@github.com:systemsdk/docker-apache-php-laravel.git
+ 1940  cd docker-apache-php-laravel/
+ 1941  ls
+ 1942  cd storage/
+ 1943  ls
+ 1944  cd ..
+ 1945  composer create-project systemsdk/docker-apache-php-laravel example-app
+ 1946  apt install composer
+ 1947  sudo apt install composer
+ 1948  composer create-project systemsdk/docker-apache-php-laravel example-app
+ 1949  make build
+ 1950  make start
+ 1951  apt install docker-credential-helper
+ 1952  sudo apt install docker-credential-helper
+ 1953  apt-cache search docker-credential 
+ 1954  sudo apt install python3-dockerpycreds 
+ 1955  exit
+ 1956  cd
+ 1957  cd 3BJ/
+ 1958  ls
+ 1959  cd 3bj-practicos/
+ 1960  ls
+ 1961  cd 
+ 1962  cd ITI
+ 1963  ls
+ 1964  cd ..
+ 1965  cd docker-apache-php-laravel/
+ 1966  exit
+ 1967  cd ITI
+ 1968  cd Laravel-Docker/
+ 1969  git add .
+ 1970  git status
+ 1971  git diff
+ 1972  git commit -m "se aregla temas de permisos de php y se quita phpmyadmin"
+ 1973  git push
+ 1974  exit
+ 1975  clear
+ 1976  vim /etc/wsl.conf
+ 1977  vim /etc/wsl.conf 
+ 1978  mysql 
+ 1979  sudo su -
+ 1980  cat hola > hola.txt
+ 1981  echo  hola > hola.txt
+ 1982  echo  hola >> hola.txt
+ 1983  cat hola.txt 
+ 1984  cat hola > hola.txt
+ 1985  echo hola > hola.txt
+ 1986  cat hola.txt 
+ 1987  rm hola.txt 
+ 1988  touch hola.txt
+ 1989  ls -l
+ 1990  cat hola.txt 
+ 1991  rm hola.txt 
+ 1992  vim hola.txt
+ 1993  cat hola.txt
+ 1994  vim hola.txt
+ 1995  sudo vim /etc/wsl.conf
+ 1996  exit
+ 1997  ls
+ 1998  ls -l
+ 1999  cd 3BC
+ 2000  ls
+ 2001  git clone git@github.com:BUCEO/3bc-practicos.git
+ 2002  git clone https://github.com/BUCEO/3bc-practicos.git
+ 2003  ls -l
+ 2004  cd 3bc-practicos/
+ 2005  ls
+ 2006  cat todo 
+ 2007  rm todo
+ 2008  ls
+ 2009  git add .
+ 2010  git checkout
+ 2011  history 
+ 2012  history >historial-comandos.txt
