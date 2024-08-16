@@ -131,6 +131,7 @@ Utiliza el siguiente comando para copiar automáticamente tu clave pública al s
 bash
 Copy code
 ssh-copy-id usuario@hostname.o.ip
+
 Este comando añadirá tu clave pública al archivo ~/.ssh/authorized_keys del usuario remoto, permitiéndote conectarte sin ingresar una contraseña.
 
 Especificar la Clave Privada al Usar scp
@@ -139,6 +140,7 @@ Cuando uses scp en tu script, puedes especificar la clave privada que deseas usa
 bash
 Copy code
 scp -i /ruta/a/tu/clave_privada archivo_a_transferir usuario@hostname.o.ip:/ruta/de/destino
+
 Modificación de .bashrc
 Para que el menú se despliegue automáticamente al iniciar el sistema, debes agregar la siguiente línea al final de tu archivo .bashrc:
 
@@ -146,6 +148,7 @@ bash
 Copy code
 # Ejecutar el script de respaldos al inicio
 /ruta/a/backup_menu.sh
+
 Flujo de Ejecución
 Inicio del Sistema: Al iniciar sesión en el terminal, el menú de respaldo se muestra automáticamente.
 Selección de Opción: El usuario selecciona una opción del menú ingresando el número correspondiente.
