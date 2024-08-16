@@ -1,4 +1,5 @@
-Sistema de Respaldo Automatizado con Menú Interactivo
+#Sistema de Respaldo Automatizado con Menú Interactivo
+
 Este proyecto es un script de respaldo automatizado para sistemas Linux que se ejecuta al inicio de la sesión del terminal. Proporciona un menú interactivo similar al de pfSense para seleccionar diferentes tipos de respaldos, incluyendo respaldos locales, a USB, y a una unidad de red usando scp. Los parámetros de configuración se almacenan en un archivo separado para facilitar la personalización.
 
 Archivo de Configuración (backup_config.cfg)
